@@ -6,7 +6,7 @@ public class UpperTriangularMatrix {
         Scanner scanner = new Scanner(System.in);
         int rowSize = scanner.nextInt();
         int columnSize = scanner.nextInt();
-        if (rowSize != columnSize) {
+        if (rowSize != columnSize && rowSize<1) {
             System.out.println("Not a square matrix!");
             System.exit(0);
         }
